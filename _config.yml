@@ -292,3 +292,4 @@ defaults:
       related: true
       
 github: [metadata]
+show_date: true
