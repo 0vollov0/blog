@@ -1,0 +1,31 @@
+---
+title: "indoorgml-to-imdf"
+excerpt: "IndoorGMLToIMDF is a program that converts OGC Standard for Indoor Spatial Information into IndoorGML and Apple's IMDF(1.0.0), another standard."
+author_profile: true
+header:
+  teaser: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQYAAACVCAMAAACNbqRXAAAAq1BMVEX///8AAABOTk50dHTr6+uIiIgNDQ0dHR3/MJdCQkL/NZr/LJY+Pj7/J5NfX18XFxf/YbD/gMDPz88SEhL/QaD/cLeOjo7/+/0xMTH/isVKSkre3t5YWFgICAj/S6XV1dVtbW2pqamenp4pKSn/VKpcXFwjIyOAgID/4fD/2Oz/hcL/Y7GamprCwsI1NTX+ns7/tNr/v9//lMn/9fq0tLT/3u//z+f/d7v/ptI5UiLVAAAHn0lEQVR4nO2daZeqOBCGgygiETfAFZFubenVXqed///LJqmwhKVd+szVc0m9X8RQAeuBVCphkRAUCoVCHZTfUFXznoTB0JRVGzFwIQYQYgAhBhBiACEGEGIAIQYQYgBVY9iNmgroa3oEg1896Kib5kcwNK72yy6qDmLgQgwgxABCDCDEAEIMIMQAQgygLmIArRbN3lJvLlYTqVA9DEzTkq8qYmisS0UKYoicZqlMPQwLIyoXqodhW+WochgqAgNRD0PkTKqKFcOwcCoCA1EOQ2VgIKph6FQGBqIYBt34aY1KGFbO+KdVKmHY/nwNQiEMnenP69TBoPcPrFQGw8vPgYEohKF/8OKkKhh2BwIDUQZD6BxerwaGm4OBgaiCod07YqAEhu7umIUKGML2URMFMNwujwQGogQG51hgICpgOB4YiAIYescDA6k/hvHy5hSzumPohyeZ1RzDrnOaXb0xnBYYSM0xjI2TAgOpOQYnPNWyzhim3ZNNa4zh5MBA6oyhZbycblxfDH39DOPaYpiemDEI1RWDvz3LvKYYImN0ln09MTSdcwIDqSuG9fzMCrXEcHdeYCA1xbA4u0YtMZwvxABCDCDEAEIMIMQAQgwgxABSDgM+gAhCDCDEAEIMIMQAQgygvwzD9+tw//bP/7/dX2Fo9I3wjH30ncP35J6q2cCyKZNtu3u5PAgCt2wduIElljzXnR3Z9K8wdDXthBuoUmnaobv1T9V3QKlJQaZpu162xjRNui+az1ipLRYHNh0e2fhfg2FmMe+D4cP9/ftwwF0M0lUWV9F+Qy0rwUDNumDgBze4T78OLIs+JV84BfO7UME1a4hhYpmmJxc8mlZ6plum65qDfIVH6tYQQ2DSgp97mjYEyww8t9AqBnRfPwwf7IAXy1yTxg2BrXzYmPnOwDLJBTE0YfJ/ETX88LZgtNL9Rgj3JecxvOiNxl1UfGfEKvIbfiRdSmgu+NPjz7rPPzYm9QoVyKOdNATOaE83+ZWbC2JY9JddQnZgvmyHkklrKwr5rckyhrAttu2s5Tu3dWGtGdv0mfHtck3G7aWmcTsW78o502DwlGGYWK780P3G/rgghtFSmxKHeWtAjew+ZHj/4tJgXmgdGcM2K5c2PZVKkzuTHK09hl8w5m2CZt1jWdBi3FxuQE1yWQzbrtbufZFFa6dlEcNny+veM/nSu0tNzzBwCrvwhYx7ay17JSenMA2/yG04BWwxhv5aW667IVv27PwpX4VhKJvsWZu4LIbs+DWY62Jp4WQ+6twkxhCy0z7MrA0RClrsTEj49diyaC2OttT6LVH6RM1SlihJxE9qZWmFy9rEhTFspVrxbRRzuZ6eYWhrWnaHAeMgLrRP5X6nlzQtJ8XE/bAeD/ggMAR26uuDzbvPy2LIXoTRFvGMjNghlazbCYaezIwQVpf3FxGLl/ldQ5/jSPtmifFHZjHJJAoEhlkWPwaQZFwUg/Tyg12MQc+/iTdKMHRkZhBAdPERSqVhvG1HQALlMARWJpErxEmFaSetwrL5iotikFKCeYzBjz8TJRimuZOEjAUttjH5zoNVHCQZhrRsI/vh2jQZZ5o5DAM7zi0+xPeLYpBeCNKI3e9IB5IrwdDOY2iKMLCW/BXWsElHMmZ+pOMo4g1isWQih+HVjhPqjUi8L5w3pEowbAuO9QWGxVLLPwws8BglDNDOHOkHPdGqDtOjeQzEov/Cp2tCQL02Bqfg2FpgeMnvA2IkSd1OFdeWMQypWZE+DYoYngSsIY2pXBlD8TR3BIamUXBY7LNfOhv6olL2g/6tGFnxUWcBwwfPHXmbEKfOtTGwba4qHGONJRcbViLzmpYwwCZlDOw0N8uJg1XEIBLqeyuJnFfG0Mt3jAd6ijtSgjaKs6ochoFZHlQ8UquI4YnPzA1pHCmvjSHS5FKeCaR5gzxNwfpXnizf5XeSpBE5DG+WSaUECsROhiKGmWl9sjYRE7s2hkmSCQr1Ewx6buJhEuea43yMXMZpRA4DiwPF6MACZAkDaxX7zxTYtTHwI5plzayJJN6v5fQyHUp001Gl+CJ2mcfAfMo3iz0NNqXYwBx2NzSdm7s2Bn4CJGmVrzkphtYyGU6RyTrd45eRjVIZm75IvQoYPihz9jX59rmhdPhWyCIJNB4zzbRkDKW5q4L+DAYWDjSnE64in2WON1lb6EK5/hxO+fA7yuppRpeVwjRWSKow8KkX03K9d0LehwELFRvyUMbA5+rpexmDlVe59/0Vhl2C4SWXTMcxj0t3kg0YOpGGkPNsy+1WWtHPStOHgIziPO57AMMIkG2xQ/5NbdGLUjudlmb5ZrpMaYxhk4xCYtmlazu/w6DPO/Fh9+dhVtyaz9OxRLMB8239zoj5Pr9LbW4aW34iGNPc1PbIF6XrzNDP/SUj6HHg2iDXgznpvSeGlJ6XTsp8bjZpGPC8uHl8eAWV53D+4BXt0e1t5cMszdvnr/I7S5s3VaVF3b/OZm/3R83O1l92Yf9PCTGAEAMIMYAQAwgxgBADCDGAEAMIMYAQA+gYhnXUqr/G0fYIBuWEGECIAYQYQIgBhBhAiAGEGECIAYQYQDKGSFdW1X/0hUKhUCgUCvWT/gNEgaTRgh3POwAAAABJRU5ErkJggg==
+show_date: true
+---
+
+## [Go to Github](https://github.com/STEMLab/indoorgml-to-imdf){:target="_blank"}
+
+IndoorGMLToIMDF is a program that converts OGC Standard for Indoor Spatial Information into IndoorGML and Apple's IMDF(1.0.0), another standard.
+
+### Prepare before use this
+
+1. Indoor Spatial Information following indoorGML 1.0 core version
+
+### Usage
+
+1. install node_module using right command ```npm i indoorgml-to-imdf```
+2. Move indoorGML file that you want to convert IMDF to wherever in your project.
+3. Require `indoorgml-to-imdf` in your code.
+4. Call `convert('your indoorGml file url')` method that is in `indoorgml-to-imdf` objecct.
+
+### NPM
+> [indoorgml-to-imdf](https://www.npmjs.com/package/indoorgml-to-imdf "indoorgml-to-imdf"){:target="_blank"}
+
+
+### Reference
+- [IndoorGML](http://www.indoorgml.net/ "OGC Standard for Indoor Spatial Information"){:target="_blank"}
+- [IMDF(Indoor Mapping Data Format)](https://register.apple.com/resources/imdf/ "Indoor Mapping Data Format"){:target="_blank"}
