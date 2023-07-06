@@ -1,6 +1,6 @@
 ---
 title: "iCongress"
-excerpt: "This is a program that is crowdfunding which is able to operate in Ethereum network. There are two type  of users in this contract, The first one is a `Funder` who fund for funding success. The second one is a `Fundraiser` who create a funding for his project."
+excerpt: "iCongress is a mobile app service that utilizes indoor spatial information to facilitate conference organization and participation."
 author_profile: true
 header:
   teaser: /assets/images/icongress_icon.png
