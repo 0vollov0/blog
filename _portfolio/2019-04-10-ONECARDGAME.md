@@ -7,11 +7,13 @@ header:
 show_date: true
 ---
 
-## [Go to Github](https://github.com/0vollov0/ONECARDGAME){:target="_blank"}
+# ONE CARD GAME
+
+## [Go to Github](https://github.com/0vollov0/ONECARDGAME)
 
 자바스크립트로 구현한 원카드 게임(싱글 플레이)입니다.
 
-## [Go To Play!!](https://0vollov0.github.io/ONECARDGAME/){:target="_blank"}
+## [Go To Play!!](https://0vollov0.github.io/ONECARDGAME/)
 
 ## 주의
 

@@ -7,13 +7,11 @@ header:
 show_date: true
 ---
 
-## [Go to Github](https://github.com/0vollov0/OneCardGame-MultiPlayable){:target="_blank"}
+# One Card Game Multiplayable
+
+## [Go to Github](https://github.com/0vollov0/OneCardGame-MultiPlayable)
 
 C# .Net 으로 MutilThread Socket 을 이용 한 원카드(멀티)게임입니다.
-
-## 실행 파일
-
-<del>[Download Link](https://github.com/psk876/OneCard-MultiPlayer-/raw/master/CardGameLand/bin/Debug/CardGameLand.exe)</del>
 
 ## 영상
 

@@ -6,8 +6,10 @@ header:
   teaser: https://blogs.iadb.org/caribbean-dev-trends/wp-content/uploads/sites/34/2017/12/Blockchain1.jpg
 show_date: true
 ---
+# Crowd funding project
 
-## [Go to Github](https://github.com/0vollov0/crowd-funding/tree/master){:target="_blank"}
+## [Go to Github](https://github.com/0vollov0/crowd-funding/tree/master)
+
 
 This is a program that is crowdfunding which is able to operate in Ethereum network. There are two type  of users in this contract, The first one is a `Funder` who fund for funding success. The second one is a `Fundraiser` who create a funding for his project.
 

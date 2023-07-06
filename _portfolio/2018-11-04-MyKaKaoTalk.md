@@ -7,7 +7,9 @@ header:
 show_date: true
 ---
 
-## [Go to Github](https://github.com/0vollov0/MyKaKaoTalk){:target="_blank"}
+# MyKaKaoTalk
+
+## [Go to Github](https://github.com/0vollov0/MyKaKaoTalk)
 
 Java Swing과 MultiThread Socket, JDBC(MySQL) 을 이용하여 카카오톡(구버전) 을 구현해 보았습니다.
 

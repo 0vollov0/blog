@@ -7,7 +7,9 @@ header:
 show_date: true
 ---
 
-## [Go to Github](https://github.com/STEMLab/VIM){:target="_blank"}
+# VIM-Android Version
+
+## [Go to Github](https://github.com/STEMLab/VIM)
 
 ### What is VIM
 
@@ -25,17 +27,17 @@ VIM has been developed for visually impaired, but it will also be useful for non
 
 |location|departure|destination|video
 |:--|:--|:--|:--|
-|Ease Daegu Station|Information Center|RestRoom Near By Number 2 Entrance|[YouTube](https://youtu.be/KjH6fsr74Jc "VIM Demonstration at 동대구역(1)"){:target="_blank"}|
-|Ease Daegu Station|RestRoom Near By Number 2 Entrance|Number 6 Entrance|[YouTube](https://youtu.be/EPm08nGf39k "VIM Demonstration at 동대구역(2)"){:target="_blank"}|
+|Ease Daegu Station|Information Center|RestRoom Near By Number 2 Entrance|[YouTube](https://youtu.be/KjH6fsr74Jc "VIM Demonstration at 동대구역(1)")|
+|Ease Daegu Station|RestRoom Near By Number 2 Entrance|Number 6 Entrance|[YouTube](https://youtu.be/EPm08nGf39k "VIM Demonstration at 동대구역(2)")|
 
 
 ### Form for expressing indoor space information
 
 VIM follows the OGC international standard IndoorGML format to express indoor spatial information. if you want to add or modify indoor space information, you must follow the schema format of the IndoorGML 1.0 core version.
 
-> [What is IndoorGML?](http://www.indoorgml.net/ "OGC Standard for Indoor Spatial Information"){:target="_blank"}
+> [What is IndoorGML?](http://www.indoorgml.net/ "OGC Standard for Indoor Spatial Information")
 
-> [indoorgmlcore.xsd](http://schemas.opengis.net/indoorgml/1.0/indoorgmlcore.xsd "indoorgmlcore.xsd"){:target="_blank"}
+> [indoorgmlcore.xsd](http://schemas.opengis.net/indoorgml/1.0/indoorgmlcore.xsd "indoorgmlcore.xsd")
 
 ### IndoorGML For VIM
 
